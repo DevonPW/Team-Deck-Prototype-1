@@ -190,13 +190,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 137457380}
-  m_LocalRotation: {x: 0.062277086, y: -0.22452135, z: 0.037774477, w: 0.9717432}
+  m_LocalRotation: {x: 0.06546504, y: -0.22360933, z: 0.023947474, w: 0.972183}
   m_LocalPosition: {x: 11.83, y: 4.01, z: -28.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 7.932, y: -25.837, z: 2.63}
+  m_LocalEulerAnglesHint: {x: 7.932, y: -25.837, z: 1}
 --- !u!1 &215768860
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,9 +727,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnInterval: 2
-  spawnPositionZ: 100
+  spawnPositionZ: 80
   wall_0: {fileID: 5174459636870272239, guid: b389ec42cafc1974a97318cf8f3bb7cb, type: 3}
   wall_1: {fileID: 7856485884496553631, guid: 0a8b24d6a00e9c84eb2946646a670598, type: 3}
+  random: 1
 --- !u!4 &903744847
 Transform:
   m_ObjectHideFlags: 0
