@@ -6,6 +6,8 @@ public class Player : MonoBehaviour
 {
     public int pose;//0 is neutral/no pose
 
+    [SerializeField] GameObject key_W;
+
     [SerializeField] SpriteRenderer spriteRend;
 
     [SerializeField] Sprite[] sprites;
@@ -23,10 +25,14 @@ public class Player : MonoBehaviour
         if (Input.GetButton("Pose1")) {
             pose = 1;
             spriteRend.sprite = sprites[1];
+
+            key_W.transform.position = new Vector3(-0.59f, -2.13f, -11.46f);
         }
         else {
             pose = 0;
             spriteRend.sprite = sprites[0];
+
+            key_W.transform.position = new Vector3(-0.59f, -2.03f, -11.46f);
         }
     }
 
